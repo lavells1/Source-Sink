@@ -14,12 +14,7 @@ import sys
 import seaborn as sns
 from scipy.signal import butter, filtfilt
 import scipy.signal as sc
-
-# Preprocessing Utils path
-utils_path = '/mnt/sauce/littlab/users/slavelle/iEEG_Atlas/EI_Calculations/scripts/'
-if utils_path not in sys.path:
-     sys.path.append(utils_path)
-from utils import get_iEEG_data, plot_iEEG_data, artifact_removal, notch_filter, bandpass_filter, stopband_filter, detect_bad_channels
+from utils import get_iEEG_data, plot_iEEG_data, artifact_removal, notch_filter, bandpass_filter, stopband_filter, detect_bad_channels # remove for scalp!
 
 
 ######### Functions ######### 
