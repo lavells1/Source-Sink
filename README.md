@@ -5,6 +5,8 @@ This algorithm aims to calculate the following features from interictal EEG:
 - sink index
 - source influence
 - sink connectivity
+  
+<img width="1292" alt="Screenshot 2025-02-10 at 16 12 16" src="https://github.com/user-attachments/assets/3bea3dda-b70f-434d-8b25-20371fc55806" />
 
 A LTI Model is fit on 500 ms windows of Interictal Data: x(t + 1) = Ax(t) 
 
